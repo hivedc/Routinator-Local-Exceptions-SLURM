@@ -10,4 +10,5 @@ We have placed the file in the /var/lib/routinator directory, and changes the us
 This simple config will allow X prefix from Y ASN. You can verify that this is working by enabling the Routinator webui in /etc/routinator/routinator.conf
 
 You must also add your exceptions file to your config file:
-exceptions = "/var/lib/routinator/rpki-exceptions.json
+
+exceptions = "/var/lib/routinator/rpki-exceptions.json"
