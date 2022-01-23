@@ -1,0 +1,32 @@
+{
+  "slurmVersion": 1,
+  "validationOutputFilters": {
+    "prefixFilters": [
+        
+
+    ],
+    "bgpsecFilters": [
+
+    ]
+  },
+  "locallyAddedAssertions": {
+    "prefixAssertions": [
+        {
+      "prefix": "170.39.196.X/28",
+      "asn": 65001,
+      "comment": "Cust X"
+     },
+	  {
+      "prefix": "170.39.196.Y/29",
+      "asn": 65003,
+      "comment": "Cust Y"
+     }
+ 
+
+    ],
+    "bgpsecAssertions": [
+
+
+    ]
+  }
+}
